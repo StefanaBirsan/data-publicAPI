@@ -1,0 +1,14 @@
+/*Resetting the margins and paddings*/
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*Creating a flexible box*/
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
